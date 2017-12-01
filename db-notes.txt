@@ -1,0 +1,11 @@
+Server=tcp:{server_name}.database.windows.net,1433;Initial Catalog=dessertdb;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+dotnet user-secrets set dbuser {your_username}
+dotnet user-secrets set dbpwd {your_password}
+
+Server=tcp:{server_name}.database.windows.net,1433;Initial Catalog=dessertdb;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+
+dotnet user-secrets set dbconn "Server=tcp:{server_name}.database.windows.net,1433;Initial Catalog=dessertdb;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
+ Configuration["dbconn "];
