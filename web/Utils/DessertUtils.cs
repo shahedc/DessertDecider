@@ -7,6 +7,7 @@ namespace web.Utils
 {
     public static class DessertUtils
     {
+        public const int MaxPoints = 10;
         public enum DessertPoints
         {
             None = 0,
