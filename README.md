@@ -7,6 +7,8 @@ Let the bot decide if you've had too much dessert by auto-calculating "dessert p
 
 - Web/API: http://dessertweb.azurewebsites.net/
 - Bot: http://dessertbot.azurewebsites.net/
+- Cognitive Services (Vision API): http://aka.ms/TryVision
+- Dessert sample pic: "<a href="images/dessert.jpeg">Dessert</a>
 
 Ask:
 - "Should I eat dessert?"
