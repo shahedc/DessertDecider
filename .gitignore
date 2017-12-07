@@ -303,3 +303,8 @@ __pycache__/
 
 # OpenCover UI analysis results
 OpenCover/
+
+# config info
+AppSettingsSecrets.config
+ConnectionStrings.config
+bot-app-notes.txt
