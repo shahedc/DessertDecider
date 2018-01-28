@@ -1,5 +1,5 @@
 # DessertDecider
-Dessert Decider
+Dessert Decider Web Bot App
 
 An ASP .NET Core 2.0 web app with a Bot interface that uses Cognitive Services to detect food items and identify desserts from pictures you upload, to be stored in a SQL Azure database.
 
